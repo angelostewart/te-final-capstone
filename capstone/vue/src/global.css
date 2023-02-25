@@ -1,0 +1,38 @@
+
+body {
+  overflow-x: none;
+  background-color: white;
+}
+
+
+.form-control:focus {
+  border-color: rgba(173, 173, 173, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(209, 209, 209, 0.25);
+}
+
+.form-select:focus {
+  border-color: rgba(173, 173, 173, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(209, 209, 209, 0.25);
+}
+
+.form-select option {
+  background-color: rgb(248, 249, 250);
+  color: rgb(121, 121, 121);
+}
+
+.btn-primary {
+  background-color: rgb(236, 93, 93);
+  border-color: rgb(212, 71, 71);
+  --bs-btn-active-bg: rgb(212, 71, 71);
+  --bs-btn-active-border-color: rgb(190, 67, 67);
+}
+
+.btn-primary:hover {
+  border-color: rgb(190, 67, 67);
+  background-color: rgb(212, 71, 71);
+}
+
+.btn-primary:active {
+  border-color: rgb(190, 67, 67);
+  background-color: rgb(212, 71, 71);
+}
